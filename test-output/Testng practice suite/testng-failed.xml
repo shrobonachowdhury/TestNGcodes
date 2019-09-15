@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Testng practice suite]">
+  <test name="TestNG Features testing(failed)">
+    <classes>
+      <class name="testing.Example1">
+        <methods>
+          <include name="test4"/>
+          <include name="test1"/>
+          <include name="test7"/>
+          <include name="test6"/>
+          <include name="test3"/>
+          <include name="test8"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- testing.Example1 -->
+      <class name="testing.Example3">
+        <methods>
+          <include name="googlelogin"/>
+          <include name="googlesearch"/>
+          <include name="googlelogout"/>
+        </methods>
+      </class> <!-- testing.Example3 -->
+      <class name="testing.Example2">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="testlogo"/>
+        </methods>
+      </class> <!-- testing.Example2 -->
+      <class name="testing.Example5">
+        <methods>
+          <include name="teardown"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- testing.Example5 -->
+    </classes>
+  </test> <!-- TestNG Features testing(failed) -->
+</suite> <!-- Failed suite [Testng practice suite] -->

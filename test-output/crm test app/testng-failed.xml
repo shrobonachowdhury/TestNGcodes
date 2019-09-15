@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [crm test app]">
+  <parameter name="password" value="test123"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://classic.crmpro.com"/>
+  <parameter name="username" value="naveenk"/>
+  <test name="parameter testing(failed)">
+    <parameter name="password" value="test123"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://classic.crmpro.com"/>
+    <parameter name="username" value="naveenk"/>
+    <classes>
+      <class name="testing.Example6">
+        <methods>
+          <include name="validation" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testing.Example6 -->
+    </classes>
+  </test> <!-- parameter testing(failed) -->
+</suite> <!-- Failed suite [crm test app] -->

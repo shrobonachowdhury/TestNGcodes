@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "Testng practice suite">
+	
+	<test name = "TestNG Features testing">
+	
+	<classes>
+	<class name="testing.Example1" />
+	<class name="testing.Example2" />
+	<class name="testing.Example3" />
+	<class name="testing.Example4" />
+	<class name="testing.Example5" />
+	</classes>
+	
+	
+	</test>
+
+
+</suite>
